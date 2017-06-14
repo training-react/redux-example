@@ -58,3 +58,12 @@ D:\dev\training-react\redux-example>npm start
 
 ```
 
+
+# Branch Parte 5 destructurar argumento en ES6
+Los cambios son internos, no necesita agregar librería
+
+## Run `app`
+```sh
+D:\dev\training-react\redux-example>npm start
+
+```

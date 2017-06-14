@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { Button, Glyphicon } from 'react-bootstrap';
 import { addToCart } from '../actionCreators';
 import { connect } from 'react-redux';
@@ -16,25 +16,24 @@ const styles = {
   }
 };
 
-class ProductList extends Component {
+const ProductList = ({ products, addToCart }) => {
 
-  render() {
     return (
       <div style={styles.products}>
-        {this.props.products.map(product =>
+        {products.map(product =>
           <div className="thumbnail" style={styles.product} key={product.id}>
             <img src={product.image} alt={product.name} />
             <div className="caption">
               <h4>{product.name}</h4>
               <p>
-                <Button bsStyle="primary" onClick={() => this.props.addToCart(product)} role="button" disabled={product.inventory <= 0}>${product.price} <Glyphicon glyph="shopping-cart" /></Button>
+                <Button bsStyle="primary" onClick={() => addToCart(product)} role="button" disabled={product.inventory <= 0}>${product.price} <Glyphicon glyph="shopping-cart" /></Button>
               </p>
             </div>
           </div>
         )}
       </div>
     );
-  }
+
 
   
 }
