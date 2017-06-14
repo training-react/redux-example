@@ -7,7 +7,7 @@ D:\dev\training-react\redux-example>npm start
 
 ```
 
-# Branch Parte 1
+# Branch Parte 2 redux
 ## Run 
 ```
 D:\dev\training-react\redux-example>npm install --save redux
