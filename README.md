@@ -31,7 +31,7 @@ D:\dev\training-react\redux-example>npm start
 ```
 
 # Branch Parte 3 action creators
-Los cambios son internos, no necesita librería
+Los cambios son internos, no necesita agregar librería
 
 ## Run `app`
 ```sh
