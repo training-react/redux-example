@@ -39,3 +39,22 @@ D:\dev\training-react\redux-example>npm start
 
 ```
 
+# Branch Parte 4 [react redux](https://github.com/reactjs/react-redux)
+
+## Instalar y descargar dependencias 
+```
+D:\dev\training-react\redux-example>npm install
+
+
+o si desea actualizar la version de react-redux:
+
+D:\dev\training-react\redux-example>npm install --save react-redux
+
+```
+
+## Run `app`
+```sh
+D:\dev\training-react\redux-example>npm start
+
+```
+
