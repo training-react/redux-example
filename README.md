@@ -29,3 +29,13 @@ D:\dev\training-react\redux-example>npm install --save redux
 D:\dev\training-react\redux-example>npm start
 
 ```
+
+# Branch Parte 3 action creators
+Los cambios son internos, no necesita librería
+
+## Run `app`
+```sh
+D:\dev\training-react\redux-example>npm start
+
+```
+
